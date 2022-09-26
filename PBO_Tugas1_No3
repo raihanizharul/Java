@@ -1,0 +1,27 @@
+Nama    : Muhammad Raihan Izharul Haq
+Kelas   : TI21F
+NIM     : 20210040075
+
+3. Buatlah resume(ulasan) informasi tentang versi terakhir JAVA saat ini ! Jelaskan fitur-fitur yang ditambahkan beserta kelebihan-kelebihannya
+
+Jawab :
+Versi java terbaru saat ini yaitu JDK versi 19 yang rilis pada September 2022. Fitur-fitur yang ditambahkan beserta kelebihannya :
+
+1) Konkurensi Terstruktur
+    Menyederhanakan pemrograman mulithread melalui API konkurensi terstruktur. Konkurensi ini memperlakukan beberapa tugas yang berjalan di utas yang berbeda sebagai satu unit kerja, untuk merampingkan penanganan
+dan pembatalan kesalahan. 
+Keandalan dan observabilitas ditingkatkan. Fitur ini berasal dari Project Loom, yang memperkenalkan model konkurensi ringan baru.
+
+2) Pratinjau Fungsi Asing dan API Memori
+    Programn Java dapat beroperasi dengan kode dan data di luar runtime Java. Dengan menjalankan fungsi asing secara efisien dan mengakses memori asing dengan aman. API memungkinkan program java untuk memanggil 
+pustaka asli dan memproses data asli tanpa bahaya dan kerapuhan.
+
+3) Pratinjau Pola Rekaman
+    Mendekonstruksi nilai rekaman. Pola rekaman dan pola tipe dapat disarangkan untuk mengaktifkan bentuk navigasi dan pemrosesan data yang deklaratif, kuat, dan dapat disusun. Sasaran proposal mencakup 
+perluasan pencocokan pola untuk mengekspresikan kueri data yang lebih canggih dan dapat dikomposisi tanpa mengubah sintaks atau semantik pola tipe. 
+
+4) Pratinjau Utas Virtual
+    Merupakan utas ringan yang secara dramatis mengurangi upaya penulisan, pemeliharaan, dan pengamatan throughput tinggi, aplikasi bersamaan. Sasaran termasuk mengaktifkan aplikasi server yang ditulis dalam 
+gaya thread-per-request sederhana untuk diskalakan dengan pemanfaatan perangkat keras yang hampir optimal, memungkinkan kode yang ada yang menggunakanjava.langThread API untuk mengadopsi utas virtual dengan 
+perubahan minimal, dan mengaktifkan pemecahan masalah, debugging, dan pembuatan profil utas virtual dengan alat JDK yang ada. Proposal ini bukan bertujuan untuk mengubah model konkurensi dasar di Java atau 
+menawarkan konstruksi paralelisme data baru dalam bahasa Java atau pustaka Java.
